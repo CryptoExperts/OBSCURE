@@ -1,0 +1,4 @@
+MAIN=f
+INPUT_COUNT=4
+INPUT_TYPES=unsigned int [4]+
+OUTPUT_COUNT=5

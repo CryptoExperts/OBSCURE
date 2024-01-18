@@ -1,0 +1,4 @@
+MAIN=sum_naive
+INPUT_COUNT=1000
+INPUT_TYPES=unsigned int[1000]
+OUTPUT_COUNT=1

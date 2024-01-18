@@ -1,0 +1,3 @@
+MAIN=msb32_from_binmul
+INPUT_COUNT=2
+INPUT_TYPES=unsigned int,unsigned int

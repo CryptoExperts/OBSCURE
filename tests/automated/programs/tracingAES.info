@@ -1,0 +1,5 @@
+MAIN=tracing_AES
+INPUT_COUNT=16
+INPUT_TYPES=unsigned int[8]+,unsigned int[8]
+OUTPUT_COUNT=8
+VOID_MAIN=true

@@ -1,0 +1,4 @@
+MAIN=crypto_aead_encrypt_struc
+INPUT_COUNT=24
+INPUT_TYPES=unsigned int[8]+,unsigned int[4],unsigned int[4],unsigned int[4],unsigned int[4]
+OUTPUT_COUNT=9

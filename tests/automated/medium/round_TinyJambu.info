@@ -1,0 +1,5 @@
+MAIN=state_update_struc
+INPUT_COUNT=8
+INPUT_TYPES=unsigned int[4]+,unsigned int[4]
+OUTPUT_COUNT=4
+VOID_MAIN=true

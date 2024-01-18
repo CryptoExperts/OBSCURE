@@ -1,0 +1,658 @@
+AES -- large (32/64)
+Frontend: 2.92 sec
+  HLIR size: 5286 HLIs
+Clusterization: 8.44 sec
+  MLIR size: 107 MLMIs
+  program depth: 78
+  program width: 5
+Rectangularization:
+  MLIR size: 395 MLMIs
+Universalization: 5.45 sec
+  MLIR size: 4898 MLMIs
+Lowering: 1.75 sec
+Serialization: 24.09 sec
+Total compilation time: 42.66 sec
+
+
+
+
+AES -- medium (16/32)
+Frontend: 2.90 sec
+  HLIR size: 5286 HLIs
+Clusterization: 12.57 sec
+  MLIR size: 242 MLMIs
+  program depth: 106
+  program width: 11
+Rectangularization:
+  MLIR size: 1174 MLMIs
+Universalization: 7.32 sec
+  MLIR size: 13265 MLMIs
+Lowering: 2.48 sec
+Serialization: 36.25 sec
+Total compilation time: 61.52 sec
+
+
+
+
+AES -- small (8/16)
+Frontend: 2.93 sec
+  HLIR size: 5286 HLIs
+Clusterization: 13.94 sec
+  MLIR size: 481 MLMIs
+  program depth: 217
+  program width: 17
+Rectangularization:
+  MLIR size: 3703 MLMIs
+Universalization: 14.29 sec
+  MLIR size: 81529 MLMIs
+Lowering: 7.86 sec
+Serialization: 124.34 sec
+Total compilation time: 163.39 sec
+
+
+
+
+AES -- tiny (2/2)
+Frontend: 3.16 sec
+  HLIR size: 5286 HLIs
+Clusterization: 31.46 sec
+  MLIR size: 3348 MLMIs
+  program depth: 492
+  program width: 81
+Rectangularization:
+  MLIR size: 39908 MLMIs
+Universalization: 107.70 sec
+  MLIR size: 2058743 MLMIs
+Lowering: 73.07 sec
+Serialization: 1551.70 sec
+Total compilation time: 1767.29 sec
+
+
+
+
+Ascon -- large (32/64)
+Frontend: 5.64 sec
+  HLIR size: 20653 HLIs
+Clusterization: 161.21 sec
+  MLIR size: 442 MLMIs
+  program depth: 313
+  program width: 13
+Rectangularization:
+  MLIR size: 4071 MLMIs
+Universalization: 76.59 sec
+  MLIR size: 39553 MLMIs
+Lowering: 16.09 sec
+Serialization: 220.36 sec
+Total compilation time: 479.93 sec
+
+
+
+
+Ascon -- medium (16/32)
+Frontend: 5.64 sec
+  HLIR size: 20653 HLIs
+Clusterization: 171.83 sec
+  MLIR size: 884 MLMIs
+  program depth: 313
+  program width: 23
+Rectangularization:
+  MLIR size: 7202 MLMIs
+Universalization: 65.12 sec
+  MLIR size: 118672 MLMIs
+Lowering: 25.29 sec
+Serialization: 355.77 sec
+Total compilation time: 623.72 sec
+
+
+
+
+Ascon -- small (8/16)
+Frontend: 5.59 sec
+  HLIR size: 20653 HLIs
+Clusterization: 178.94 sec
+  MLIR size: 1520 MLMIs
+  program depth: 296
+  program width: 21
+Rectangularization:
+  MLIR size: 6221 MLMIs
+Universalization: 23.61 sec
+  MLIR size: 112250 MLMIs
+Lowering: 12.88 sec
+Serialization: 193.51 sec
+Total compilation time: 414.54 sec
+
+
+
+
+Ascon -- tiny (2/2)
+Frontend: 5.46 sec
+  HLIR size: 20653 HLIs
+Clusterization: 475.98 sec
+  MLIR size: 13039 MLMIs
+  program depth: 993
+  program width: 81
+Rectangularization:
+  MLIR size: 80450 MLMIs
+Universalization: 234.31 sec
+  MLIR size: 4150880 MLMIs
+Lowering: 137.00 sec
+Serialization: 2838.55 sec
+Total compilation time: 3691.69 sec
+
+
+
+
+Photon -- large (32/64)
+Frontend: 70.04 sec
+  HLIR size: 47248 HLIs
+Clusterization: 1054.43 sec
+  MLIR size: 1011 MLMIs
+  program depth: 154
+  program width: 45
+Rectangularization:
+  MLIR size: 6954 MLMIs
+Universalization: 289.04 sec
+  MLIR size: 116539 MLMIs
+Lowering: 39.38 sec
+Serialization: 556.33 sec
+Total compilation time: 2009.31 sec
+
+
+
+
+Photon -- medium (16/32)
+Frontend: 70.92 sec
+  HLIR size: 47248 HLIs
+Clusterization: 1504.22 sec
+  MLIR size: 3203 MLMIs
+  program depth: 442
+  program width: 51
+Rectangularization:
+  MLIR size: 22590 MLMIs
+Universalization: 204.77 sec
+  MLIR size: 336677 MLMIs
+Lowering: 61.04 sec
+Serialization: 986.19 sec
+Total compilation time: 2827.29 sec
+
+
+
+
+Photon -- small (8/16)
+Frontend: 77.56 sec
+  HLIR size: 47248 HLIs
+Clusterization: 2589.87 sec
+  MLIR size: 6685 MLMIs
+  program depth: 646
+  program width: 57
+Rectangularization:
+  MLIR size: 36918 MLMIs
+Universalization: 124.67 sec
+  MLIR size: 498229 MLMIs
+Lowering: 49.83 sec
+Serialization: 772.04 sec
+Total compilation time: 3614.09 sec
+
+
+
+
+Photon -- tiny (2/2)
+
+
+
+
+TinyJambu -- large (32/64)
+Frontend: 0.54 sec
+  HLIR size: 6324 HLIs
+Clusterization: 10.97 sec
+  MLIR size: 136 MLMIs
+  program depth: 135
+  program width: 2
+Rectangularization:
+  MLIR size: 272 MLMIs
+Universalization: 1.42 sec
+  MLIR size: 2312 MLMIs
+Lowering: 0.81 sec
+Serialization: 11.43 sec
+Total compilation time: 25.16 sec
+
+
+
+
+TinyJambu -- medium (16/32)
+Frontend: 0.47 sec
+  HLIR size: 6324 HLIs
+Clusterization: 11.09 sec
+  MLIR size: 350 MLMIs
+  program depth: 349
+  program width: 2
+Rectangularization:
+  MLIR size: 701 MLMIs
+Universalization: 1.63 sec
+  MLIR size: 5951 MLMIs
+Lowering: 1.10 sec
+Serialization: 15.82 sec
+Total compilation time: 30.11 sec
+
+
+
+
+TinyJambu -- small (8/16)
+Frontend: 0.42 sec
+  HLIR size: 6324 HLIs
+Clusterization: 13.43 sec
+  MLIR size: 648 MLMIs
+  program depth: 645
+  program width: 4
+Rectangularization:
+  MLIR size: 2584 MLMIs
+Universalization: 3.27 sec
+  MLIR size: 21318 MLMIs
+Lowering: 2.20 sec
+Serialization: 32.37 sec
+Total compilation time: 51.70 sec
+
+
+
+
+TinyJambu -- tiny (2/2)
+Frontend: 0.40 sec
+  HLIR size: 6324 HLIs
+Clusterization: 63.01 sec
+  MLIR size: 3759 MLMIs
+  program depth: 2113
+  program width: 16
+Rectangularization:
+  MLIR size: 33823 MLMIs
+Universalization: 29.45 sec
+  MLIR size: 708189 MLMIs
+Lowering: 26.42 sec
+Serialization: 476.96 sec
+Total compilation time: 596.31 sec
+
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+WITHOUT UNIVERSALIZATION:
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+AES -- large (32/64)
+Frontend: 2.83 sec
+  HLIR size: 5286 HLIs
+Clusterization: 8.40 sec
+  MLIR size: 109 MLMIs
+Lowering: 0.10 sec
+Serialization: 0.67 sec
+Total compilation time: 12.01 sec
+
+
+
+
+AES -- medium (16/32)
+Frontend: 2.80 sec
+  HLIR size: 5286 HLIs
+Clusterization: 12.72 sec
+  MLIR size: 259 MLMIs
+Lowering: 0.10 sec
+Serialization: 0.78 sec
+Total compilation time: 16.41 sec
+
+
+
+
+AES -- small (8/16)
+Frontend: 3.22 sec
+  HLIR size: 5286 HLIs
+Clusterization: 13.49 sec
+  MLIR size: 487 MLMIs
+Lowering: 0.10 sec
+Serialization: 0.88 sec
+Total compilation time: 17.69 sec
+
+
+
+
+AES -- tiny (2/2)
+Frontend: 3.32 sec
+  HLIR size: 5286 HLIs
+Clusterization: 30.92 sec
+  MLIR size: 3350 MLMIs
+Lowering: 0.07 sec
+Serialization: 2.19 sec
+Total compilation time: 36.50 sec
+
+
+
+
+Ascon -- large (32/64)
+Frontend: 5.53 sec
+  HLIR size: 20653 HLIs
+Clusterization: 133.69 sec
+  MLIR size: 442 MLMIs
+Lowering: 0.27 sec
+Serialization: 3.04 sec
+Total compilation time: 142.53 sec
+
+
+
+
+Ascon -- medium (16/32)
+Frontend: 5.34 sec
+  HLIR size: 20653 HLIs
+Clusterization: 136.77 sec
+  MLIR size: 903 MLMIs
+Lowering: 0.27 sec
+Serialization: 3.27 sec
+Total compilation time: 145.65 sec
+
+
+
+
+Ascon -- small (8/16)
+Frontend: 5.26 sec
+  HLIR size: 20653 HLIs
+Clusterization: 160.03 sec
+  MLIR size: 1488 MLMIs
+Lowering: 0.29 sec
+Serialization: 3.62 sec
+Total compilation time: 169.20 sec
+
+
+
+
+Ascon -- tiny (2/2)
+Frontend: 5.54 sec
+  HLIR size: 20653 HLIs
+Clusterization: 441.08 sec
+  MLIR size: 13047 MLMIs
+Lowering: 0.65 sec
+Serialization: 9.18 sec
+Total compilation time: 456.44 sec
+
+
+
+
+Photon -- large (32/64)
+Frontend: 70.56 sec
+  HLIR size: 47248 HLIs
+Clusterization: 1023.64 sec
+  MLIR size: 1068 MLMIs
+Lowering: 0.43 sec
+Serialization: 6.22 sec
+Total compilation time: 1100.84 sec
+
+
+
+
+Photon -- medium (16/32)
+Frontend: 75.42 sec
+  HLIR size: 47248 HLIs
+Clusterization: 1643.54 sec
+  MLIR size: 3215 MLMIs
+Lowering: 0.51 sec
+Serialization: 7.80 sec
+Total compilation time: 1727.27 sec
+
+
+
+
+Photon -- small (8/16)
+Frontend: 82.51 sec
+  HLIR size: 47248 HLIs
+Clusterization: 2807.02 sec
+  MLIR size: 6680 MLMIs
+Lowering: 0.55 sec
+Serialization: 9.63 sec
+Total compilation time: 2899.70 sec
+
+
+
+
+Photon -- tiny (2/2)
+Frontend: 76.08 sec
+  HLIR size: 47248 HLIs
+Clusterization: 6716.95 sec
+  MLIR size: 43539 MLMIs
+Lowering: 1.61 sec
+Serialization: 26.38 sec
+Total compilation time: 6821.03 sec
+
+
+
+
+TinyJambu -- large (32/64)
+Frontend: 0.41 sec
+  HLIR size: 6324 HLIs
+Clusterization: 11.27 sec
+  MLIR size: 138 MLMIs
+Lowering: 0.04 sec
+Serialization: 0.81 sec
+Total compilation time: 12.53 sec
+
+
+
+
+TinyJambu -- medium (16/32)
+Frontend: 0.44 sec
+  HLIR size: 6324 HLIs
+Clusterization: 10.02 sec
+  MLIR size: 350 MLMIs
+Lowering: 0.05 sec
+Serialization: 0.93 sec
+Total compilation time: 11.44 sec
+
+
+
+
+TinyJambu -- small (8/16)
+Frontend: 0.42 sec
+  HLIR size: 6324 HLIs
+Clusterization: 13.35 sec
+  MLIR size: 658 MLMIs
+Lowering: 0.05 sec
+Serialization: 1.10 sec
+Total compilation time: 14.92 sec
+
+
+
+
+TinyJambu -- tiny (2/2)
+Frontend: 0.41 sec
+  HLIR size: 6324 HLIs
+Clusterization: 64.97 sec
+  MLIR size: 3758 MLMIs
+Lowering: 0.12 sec
+Serialization: 2.47 sec
+Total compilation time: 67.96 sec
+
+
+
+
+AES -- large (32/64)
+Frontend: 2.30 sec
+  HLIR size: 5286 HLIs
+Clusterization: 4.41 sec
+  MLIR size: 109 MLMIs
+Lowering: 0.07 sec
+Serialization: 0.04 sec
+Total compilation time: 6.82 sec
+
+
+
+
+AES -- medium (16/32)
+Frontend: 1.96 sec
+  HLIR size: 5286 HLIs
+Clusterization: 4.41 sec
+  MLIR size: 220 MLMIs
+Lowering: 0.14 sec
+Serialization: 0.07 sec
+Total compilation time: 6.57 sec
+
+
+
+
+AES -- small (8/16)
+Frontend: 2.44 sec
+  HLIR size: 5286 HLIs
+Clusterization: 4.82 sec
+  MLIR size: 453 MLMIs
+Lowering: 0.13 sec
+Serialization: 0.09 sec
+Total compilation time: 7.47 sec
+
+
+
+
+AES -- tiny (2/2)
+Frontend: 2.14 sec
+  HLIR size: 5286 HLIs
+Clusterization: 16.54 sec
+  MLIR size: 3350 MLMIs
+Lowering: 0.20 sec
+Serialization: 0.21 sec
+Total compilation time: 19.10 sec
+
+
+
+
+Ascon -- large (32/64)
+Frontend: 4.59 sec
+  HLIR size: 20653 HLIs
+Clusterization: 69.53 sec
+  MLIR size: 452 MLMIs
+Lowering: 0.22 sec
+Serialization: 0.15 sec
+Total compilation time: 74.50 sec
+
+
+
+
+Ascon -- medium (16/32)
+Frontend: 5.04 sec
+  HLIR size: 20653 HLIs
+Clusterization: 75.58 sec
+  MLIR size: 902 MLMIs
+Lowering: 0.21 sec
+Serialization: 0.25 sec
+Total compilation time: 81.09 sec
+
+
+
+
+Ascon -- small (8/16)
+Frontend: 5.51 sec
+  HLIR size: 20653 HLIs
+Clusterization: 69.82 sec
+  MLIR size: 1590 MLMIs
+Lowering: 0.27 sec
+Serialization: 0.30 sec
+Total compilation time: 75.90 sec
+
+
+
+
+Ascon -- tiny (2/2)
+Frontend: 5.08 sec
+  HLIR size: 20653 HLIs
+Clusterization: 344.03 sec
+  MLIR size: 13099 MLMIs
+Lowering: 0.46 sec
+Serialization: 1.36 sec
+Total compilation time: 350.93 sec
+
+
+
+
+Photon -- large (32/64)
+Frontend: 22.16 sec
+  HLIR size: 47248 HLIs
+Clusterization: 543.86 sec
+  MLIR size: 988 MLMIs
+Lowering: 0.28 sec
+Serialization: 0.18 sec
+Total compilation time: 566.47 sec
+
+
+
+
+Photon -- medium (16/32)
+Frontend: 21.77 sec
+  HLIR size: 47248 HLIs
+Clusterization: 1238.08 sec
+  MLIR size: 3317 MLMIs
+Lowering: 0.36 sec
+Serialization: 0.50 sec
+Total compilation time: 1260.71 sec
+
+
+
+
+Photon -- small (8/16)
+Frontend: 25.28 sec
+  HLIR size: 47248 HLIs
+Clusterization: 2342.18 sec
+  MLIR size: 7192 MLMIs
+Lowering: 0.35 sec
+Serialization: 0.55 sec
+Total compilation time: 2368.35 sec
+
+
+
+
+Photon -- tiny (2/2)
+Frontend: 21.67 sec
+  HLIR size: 47248 HLIs
+Clusterization: 5084.70 sec
+  MLIR size: 43552 MLMIs
+Lowering: 0.77 sec
+Serialization: 8.03 sec
+Total compilation time: 5115.18 sec
+
+
+
+
+TinyJambu -- large (32/64)
+Frontend: 1.34 sec
+  HLIR size: 6324 HLIs
+Clusterization: 5.61 sec
+  MLIR size: 174 MLMIs
+Lowering: 0.09 sec
+Serialization: 0.06 sec
+Total compilation time: 7.09 sec
+
+
+
+
+TinyJambu -- medium (16/32)
+Frontend: 1.34 sec
+  HLIR size: 6324 HLIs
+Clusterization: 5.97 sec
+  MLIR size: 350 MLMIs
+Lowering: 0.14 sec
+Serialization: 0.09 sec
+Total compilation time: 7.55 sec
+
+
+
+
+TinyJambu -- small (8/16)
+Frontend: 1.35 sec
+  HLIR size: 6324 HLIs
+Clusterization: 6.82 sec
+  MLIR size: 700 MLMIs
+Lowering: 0.16 sec
+Serialization: 0.11 sec
+Total compilation time: 8.44 sec
+
+
+
+
+TinyJambu -- tiny (2/2)
+Frontend: 1.37 sec
+  HLIR size: 6324 HLIs
+Clusterization: 49.28 sec
+  MLIR size: 3855 MLMIs
+Lowering: 0.21 sec
+Serialization: 0.29 sec
+Total compilation time: 51.15 sec

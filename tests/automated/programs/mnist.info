@@ -1,0 +1,4 @@
+MAIN=mnist32_struc
+INPUT_COUNT=784
+INPUT_TYPES=unsigned int[784]
+OUTPUT_COUNT=1

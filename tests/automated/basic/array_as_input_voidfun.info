@@ -1,0 +1,5 @@
+MAIN=f
+INPUT_COUNT=4
+INPUT_TYPES=unsigned int,unsigned int,unsigned int[2]+
+OUTPUT_COUNT=2
+VOID_MAIN=1

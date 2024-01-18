@@ -1,0 +1,4 @@
+MAIN=crypto_aead_encrypt_struc
+INPUT_COUNT=21
+INPUT_TYPES=unsigned int[6]+,unsigned int[4],unsigned int[4],unsigned int[3],unsigned int[4]
+OUTPUT_COUNT=7

@@ -1,0 +1,3 @@
+MAIN=h
+INPUT_COUNT=2
+INPUT_TYPES=unsigned int,unsigned int

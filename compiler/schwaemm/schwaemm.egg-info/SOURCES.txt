@@ -1,0 +1,15 @@
+setup.py
+schwaemm/__init__.py
+schwaemm/api.h
+schwaemm/crypto_aead.h
+schwaemm/schwaemm.c
+schwaemm/schwaemm.h
+schwaemm/schwaemm.i
+schwaemm/schwaemm.py
+schwaemm/sparkle.c
+schwaemm/sparkle.h
+schwaemm/wrapper.c
+schwaemm.egg-info/PKG-INFO
+schwaemm.egg-info/SOURCES.txt
+schwaemm.egg-info/dependency_links.txt
+schwaemm.egg-info/top_level.txt

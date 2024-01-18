@@ -1,0 +1,4 @@
+MAIN=f
+INPUT_COUNT=16
+INPUT_TYPES=unsigned int[8]+,unsigned int[8]
+OUTPUT_COUNT=9

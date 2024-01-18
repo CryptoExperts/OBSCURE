@@ -1,0 +1,3 @@
+MAIN=f
+INPUT_COUNT=3
+INPUT_TYPES=unsigned int,unsigned int,unsigned int
