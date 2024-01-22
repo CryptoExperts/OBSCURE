@@ -100,10 +100,10 @@ if (@ARGV) {
 # Setting params
 # TODO: we should consider generating those randomly, or testing some
 # specific params for each tests...
-my $r    = 80;
-my $s    = 64;
-my $lin  = 16;
-my $lout = 16;
+my $r    = 40;
+my $s    = 32;
+my $lin  = 8;
+my $lout = 8;
 
 # Computing max filename length
 my $max_len = max(map { m{((?:[^/]+/)?[^/]+)\.c}; length($1) } @TEST_FILES, "./0123456789.c");
