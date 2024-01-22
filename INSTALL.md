@@ -1,32 +1,32 @@
-## Debian-like systems and MacOS
+# Debian-like systems and MacOS
 
-(all the commands below should be ran from the root of the repository)
+(All the commands below should be ran from the root of the repository)
 
-### Quick setup
+## Quick setup
 
 To get quickly ready on Debian-like systems, run the following commands:
 
     sudo apt install python3 swig libsodium-dev gcc
-    pip3 install "pycparser>=2.21" pysodium
+    pip3 install "pycparser>=2.21" pysodium graphviz
     cd compiler/schwaemm && sudo python3 setup.py install && cd -
     make -C runtime
 
 To get quickly ready on MacOS, run the following commands:
 
-    xcode-select --install # install cc and gcc
+    xcode-select --install # install cc and gcc 
     brew install python3 swig libsodium
-    pip3 install pysodium
+    pip3 install "pycparser>=2.21" pysodium graphviz
     cd compiler/schwaemm && sudo python3 setup.py install && cd -
     make -C runtime
 
-### Detailed setup
+## Detailed setup
 
 This section gives more detail on what the command presented above
 actually do, and why. Read it if you are curious, if you don't want to
-run random `sudo apt` or `brew` commands, or if you are a developper of this
+run random `sudo apt` or `brew` commands, or if you are a developer of this
 project.
 
-#### Compiler
+### Compiler
 
 The compiler is written in Python 3. To install Python 3 on Debian-like systems:
 
@@ -44,9 +44,11 @@ It uses a few Python modules:
 
   * `pysodium` to encrypt the shared key during bytecode generation
 
+  * `graphviz` for graph of the multi-instructions in the compiler.
+
 To install all of those modules at once, run:
 
-    pip3 install "pycparser>=2.21" pysodium
+    pip3 install "pycparser>=2.21" pysodium graphviz
 
 (depending on your setup, you might want to run `sudo pip3` instead of `pip3`)
 
@@ -65,7 +67,7 @@ You can then build and install Schwaemm:
 
     cd compiler/schwaemm && sudo python3 setup.py install && cd -
 
-#### Interpreter
+### Interpreter
 
 The interpreter is written in C. To install gcc (a C compiler) on Debian-like systems, run:
 
@@ -88,16 +90,20 @@ You can now build the interpreter:
     make -C runtime
 
 
-### Test file
+## Quick test
 
-To make sure that you have everything properly install, and that the
-compiler works properly, you can compiler the file `tests/vrac/t.c`:
+To make sure that you have everything properly installed, and that the
+compiler works properly, you can compiler the file `tests/vrac/t.c` with the configuration of a small secure element (see `runtime/SEconfig.h`):
 
-    python3 compiler/compiler.py tests/vrac/t.c -o out.bin -r 4 -s 2 -lin 2 -lout 2
+    python3 compiler/compiler.py -r 40 -lin 8 -lout 8 -s 32 tests/vrac/t.c -o bytecode.bin
 
-You can then run it with the interpreter:
+Then, you compile the interpreter with the compatible configuration of a small secure element by choosing choose `SE_SMALL` in the file `runtime/SEconfig.h` and run:
 
-    ./runtime/interpreter --inputs 111,222,333 --out_count 1 out.bin
+    make -C runtime
+
+This generates the executable file `interpreter`. Finally, you provide the input values `--inputs 111,222,333` and the number of output `--out_count 1` (see `tests/vrac/t.c`) execute the bytecode with the interpreter:
+
+    ./runtime/interpreter --inputs 111,222,333 --out_count 1 bytecode.bin
 
 The output should be:
 
