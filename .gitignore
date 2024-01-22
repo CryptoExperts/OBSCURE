@@ -1,0 +1,25 @@
+# Temporary files
+*~
+.DS_Store
+.vscode/
+
+# C objects files / binaries
+*.o
+*.out
+*.bin
+
+# Python Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+compiler/schwaemm/build/*
+compiler/schwaemm/dist/*
+compiler/schwaemm/schwaemm/schwaemm_wrap.c
+compiler/schwaemm/schwaemm/schwaemm.py
+compiler/schwaemm/schwaemm.egg-info
+
+# Other generated files
+*.txt
+*.dat
+*.gv
+*.pdf
